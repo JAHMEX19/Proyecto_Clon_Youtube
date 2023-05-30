@@ -29,8 +29,6 @@ aside .btn_details i {
     height: 50px;
     text-align: center;
     font-weight: 600;
-
-
 }
 
 aside .btn_details img {
@@ -44,20 +42,20 @@ aside .nav_links {
     background: rgb(0, 0, 0);
     height: 100%;
     padding-top: 20px;
-
-
-
 }
 
 aside .nav_links li {
     position: relative;
     list-style: none;
-    background: red;
+    background: rgb(0, 0, 0);
 
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 25px;
+}
+aside .nav_links li:hover {
+    background: rgb(88, 88, 88);
 }
 
 aside .nav_links li i {
@@ -71,10 +69,11 @@ aside .nav_links li i {
 
 aside .nav_links a {
     text-decoration: none;
-    color: rgb(140, 204, 21);
+    color: rgb(255, 255, 255);
 }
 
-
+/*
 aside .nav_links a .link {
     font-size: 18px;
-}
+    color: aqua;
+}*/

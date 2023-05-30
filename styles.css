@@ -1,6 +1,80 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 260px;
+    background: black;
+}
+
+aside .btn_details {
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+aside .btn_details i {
+
+    font-size: 40px;
+    color: #ffff;
+    background: rgb(0, 0, 0);
+    height: 50px;
+    text-align: center;
+    font-weight: 600;
+
+
+}
+
+aside .btn_details img {
+
+    width: 200px;
+}
+
+/*Stile Menu Nav*/
+aside .nav_links {
+
+    background: rgb(0, 0, 0);
+    height: 100%;
+    padding-top: 20px;
+
+
+
+}
+
+aside .nav_links li {
+    position: relative;
+    list-style: none;
+    background: red;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+aside .nav_links li i {
+
+    height: 50px;
+    min-width: 78px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+
+aside .nav_links a {
+    text-decoration: none;
+    color: rgb(140, 204, 21);
+}
+
+
+aside .nav_links a .link {
+    font-size: 18px;
 }

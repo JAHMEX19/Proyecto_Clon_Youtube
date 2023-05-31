@@ -12,7 +12,12 @@ body {
     flex-direction: column;
 
     position: relative;
+    overflow: auto;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
+
 
 .section_top {
     background: rgb(0, 0, 0);
@@ -127,21 +132,22 @@ aside {
 .section_mini_menu {
 
     background: rgb(0, 0, 0);
-    width: 60px;
+    width: 80px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 50%;
+    height: 100%;
 
 }
 
 .section_mini_menu li {
 
-    margin: 5px 0;
+    margin: 5px 10px;
     font-size: 30px;
     text-align: center;
     border-radius: 5px;
+    list-style: none;
 
     color: white;
 }
@@ -164,6 +170,7 @@ aside {
     transform: translateX(0%)
 }
 
+/* seccion de parrillas de video*/
 main {
     width: auto;
     height: 100vh;
@@ -171,4 +178,83 @@ main {
     background: black;
     color: white;
     display: flex;
+    
+
+    
 }
+main .parrilla{
+
+width: 100%;
+height: 100vh;
+background: black;
+display: flex;
+flex-direction: column;
+
+}
+
+main .parrilla .filas{
+
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 20px;
+
+}
+
+
+main .parrilla .filas .item_tarjeta{
+
+    width: 370px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.178);
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-start;
+   
+   border-radius: 5px;
+   margin:10px 10px
+  
+
+
+}
+
+main .parrilla .filas .item_tarjeta img{
+
+    width: 360px;
+    margin: 5px 5px 0 5px;
+    border-radius: 5px;
+
+}
+
+
+
+main .parrilla .filas .item_tarjeta .informacion{
+ color: black;
+
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ align-items: center;
+    
+
+}
+
+
+main .parrilla .filas .item_tarjeta .informacion img {
+  
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+   
+   }
+
+   main .parrilla .filas .item_tarjeta .informacion .texto{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10px;
+  
+
+   }

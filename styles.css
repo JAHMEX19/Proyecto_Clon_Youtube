@@ -14,19 +14,20 @@ body {
     position: relative;
     overflow: auto;
 }
-body::-webkit-scrollbar{
+
+body::-webkit-scrollbar {
     display: none;
 }
 
 
 .section_top {
-    
+
     background: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   
-   
+
+
     min-height: 50px;
     border-bottom: 1px solid #909090;
 }
@@ -35,6 +36,7 @@ body::-webkit-scrollbar{
     background: rgb(150, 151, 57);
     display: flex;
     flex-direction: row;
+    height: 100vh;
 
 }
 
@@ -47,7 +49,7 @@ body::-webkit-scrollbar{
     height: 50px;
     background: rgb(0, 0, 0);
     border-bottom: 1px solid #909090;
-    
+
 
 }
 
@@ -80,7 +82,7 @@ body::-webkit-scrollbar{
 }
 
 /*  seccion busqueda*/
-.section_top .busqueda{
+.section_top .busqueda {
     width: 500px;
     display: flex;
     justify-content: center;
@@ -88,55 +90,51 @@ body::-webkit-scrollbar{
 
 }
 
-.section_top .busqueda input{
+.section_top .busqueda input {
     width: 300px;
     height: 30px;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.329);
-    border:none;
-    
-
+    border: none;
 }
 
-.section_top .busqueda i{
-   
+.section_top .busqueda i {
+
     border-radius: 15px;
     color: rgb(255, 255, 255);
-    border:none;
+    border: none;
     font-size: 25px;
     color: #ffff;
     text-align: center;
     cursor: pointer;
-    
-
 }
 
 /*  seccion perfil*/
 
-.section_top .perfil{
+.section_top .perfil {
     width: 150px;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
-    
 }
 
-.section_top .perfil img{
+.section_top .perfil img {
     width: 40px;
     height: 40px;
     border-radius: 25px;
-    
+
 }
-.section_top .perfil  i{
+
+.section_top .perfil i {
 
     border-radius: 15px;
     color: rgb(255, 255, 255);
-    border:none;
+    border: none;
     font-size: 25px;
     color: #ffff;
     text-align: center;
 
- 
+
     cursor: pointer;
 }
 
@@ -164,7 +162,7 @@ aside {
 
 .section_menu aside .nav_links li {
 
-    background: rgba(255, 255, 255, 0.26);
+
     width: auto;
 
     position: relative;
@@ -173,6 +171,12 @@ aside {
     margin: 10px 10px 10px 10px;
 
     border-radius: 15px;
+}
+
+.section_menu aside #first {
+
+    background: rgb(88, 88, 88);
+
 }
 
 .section_menu aside .nav_links li:hover {
@@ -244,49 +248,42 @@ main {
     background: black;
     color: white;
     display: flex;
-  
-    
-
-    
-}
-main .parrilla{
-
-width: 100%;
-height: 100vh;
-background: black;
-display: flex;
-flex-direction: column;
 
 }
 
-main .parrilla .filas{
+main .parrilla {
+
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main .parrilla .filas {
 
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-
     margin-top: 20px;
 
 }
 
 
-main .parrilla .filas .item_tarjeta{
+main .parrilla .filas .item_tarjeta {
 
     width: 370px;
     height: 300px;
     background: rgba(255, 255, 255, 0.178);
     display: flex;
     flex-direction: column;
-   justify-content: flex-start;
-   
-   border-radius: 5px;
-   margin:10px 10px
-  
+    justify-content: flex-start;
 
-
+    border-radius: 5px;
+    margin: 10px 10px
 }
 
-main .parrilla .filas .item_tarjeta img{
+main .parrilla .filas .item_tarjeta img {
 
     width: 360px;
     margin: 5px 5px 0 5px;
@@ -296,33 +293,33 @@ main .parrilla .filas .item_tarjeta img{
 
 
 
-main .parrilla .filas .item_tarjeta .informacion{
- color: black;
+main .parrilla .filas .item_tarjeta .informacion {
+    color: black;
 
- display: flex;
- flex-direction: row;
- justify-content: flex-start;
- align-items: center;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
 
 }
 
 
 main .parrilla .filas .item_tarjeta .informacion img {
-  
+
     width: 50px;
     height: 50px;
     border-radius: 50px;
     margin-left: 10px;
-   
-   }
 
-   main .parrilla .filas .item_tarjeta .informacion .texto{
+}
+
+main .parrilla .filas .item_tarjeta .informacion .texto {
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin-left: 10px;
-  
 
-   }
+
+}

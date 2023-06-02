@@ -20,11 +20,13 @@ body::-webkit-scrollbar{
 
 
 .section_top {
+    
     background: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+   
+   
     min-height: 50px;
     border-bottom: 1px solid #909090;
 }
@@ -45,6 +47,7 @@ body::-webkit-scrollbar{
     height: 50px;
     background: rgb(0, 0, 0);
     border-bottom: 1px solid #909090;
+    
 
 }
 
@@ -78,10 +81,10 @@ body::-webkit-scrollbar{
 
 /*  seccion busqueda*/
 .section_top .busqueda{
-    width: 400px;
+    width: 500px;
     display: flex;
-  justify-content: center;
-   
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -103,8 +106,6 @@ body::-webkit-scrollbar{
     font-size: 25px;
     color: #ffff;
     text-align: center;
-
- 
     cursor: pointer;
     
 

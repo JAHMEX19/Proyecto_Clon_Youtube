@@ -251,6 +251,7 @@ main {
 
 }
 
+
 main .parrilla {
 
     width: 100%;
@@ -260,6 +261,35 @@ main .parrilla {
     flex-direction: column;
 
 }
+
+main .parrilla .recomendaciones{
+
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 20px;
+}
+main .parrilla .recomendaciones ul {
+
+ display: flex;
+ justify-content: space-evenly;
+ align-content: center;
+    
+   
+    
+    }
+
+main .parrilla .recomendaciones  li{
+
+list-style: none;
+background: rgba(128, 128, 128, 0.445);
+border-radius: 5px;
+padding: 0 .6rem;
+cursor: pointer;
+
+}
+
+
 
 main .parrilla .filas {
 

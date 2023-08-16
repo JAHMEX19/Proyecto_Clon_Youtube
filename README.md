@@ -14,3 +14,10 @@ Este repositorio contiene el proyecto "Clon Youtube"
 HTML 
 CSS
 Javascript
+
+## Project Link
+https://jahmex19.github.io/Proyecto_Clon_Youtube/
+
+## Screenshots
+
+<img src="https://github.com/JAHMEX19/Proyecto_Clon_Youtube/blob/main/clonetube.png" width="500px"  >

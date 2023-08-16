@@ -20,4 +20,4 @@ https://jahmex19.github.io/Proyecto_Clon_Youtube/
 
 ## Screenshots
 
-<img src="https://github.com/JAHMEX19/Proyecto_Clon_Youtube/blob/main/clonetube.png" width="500px"  >
+<img src="https://github.com/JAHMEX19/Proyecto_Clon_Youtube/blob/main/clontube.png" width="500px"  >
